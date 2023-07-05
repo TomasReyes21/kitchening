@@ -149,7 +149,7 @@
     }
 }
 
-@media (min-width:769px) {
+@media (min-width:1280px) {
     
     /* HEADER */
 
@@ -159,7 +159,24 @@
     }
 
     .home-header-nav-menu ul li {
-        font-size: 1%;
+        font-size: 1rem;
+        height: 50px;
+        padding: 15px 0;
+
     }
+
+    /* MAIN */
     
+    .home-main-section-article {
+        width: 32%;
+    }
+
+    .home-main-section-article:nth-child(even){
+        margin-right: 2%;
+    }
+
+    .home-main-section-article:nth-child(3n){
+        margin-right: 0;
+    }
+
 }
